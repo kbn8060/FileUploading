@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+	<servlet>
+		<servlet-name>UploadServlet</servlet-name>
+		<servlet-class>com.app.UploadServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UploadServlet</servlet-name>
+		<url-pattern>/go</url-pattern>
+	</servlet-mapping>
+
+</web-app>  
